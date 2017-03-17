@@ -1,0 +1,63 @@
+html,
+body {
+  font-size: 16px !important;
+  font-family: "Roboto", "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "Source Han Sans Simplified Chinese", "Source Han Sans Traditional Chinese", "Heiti SC", "Heiti TC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", sans-serif !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.layout {
+  height: 100%;
+}
+
+.header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options i {
+  margin-left: 30px;
+}
+
+.login-form {
+  width: 300px;
+}
+
+.login-form-forgot {
+  float: right;
+  color: white;
+
+}
+
+.login-form-button {
+  width: 100%;
+  background-color: #2196F3;
+  border-color: #2196F3;
+}
+
+.login-wrapper {
+  flex-direction: column;
+  background: linear-gradient(#1E88E5, #1976D2);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headline {
+  color: white;
+  font-weight: 100;
+}

@@ -1,0 +1,21 @@
+@value color: '../../assets/css/color.css';
+@value green, blue, grey from color;
+
+.header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-action i {
+  margin-left: 30px;
+}
