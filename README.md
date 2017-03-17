@@ -34,7 +34,7 @@ GitHub 的 demo 代码：[antd-demo](https://github.com/brickyang/antd-demo)
 
 另外还用了 `webpack-dev-server` 和 `react-hot-loader`，都是开发必不可少的，所以就留着了。
 
-&lt;img src="https://pic4.zhimg.com/v2-47b5384132978e73140ada66b71d48db_b.png" data-rawwidth="426" data-rawheight="1072" class="origin_image zh-lightbox-thumb" width="426" data-original="https://pic4.zhimg.com/v2-47b5384132978e73140ada66b71d48db_r.png"&gt;
+![](https://pic4.zhimg.com/v2-47b5384132978e73140ada66b71d48db_r.png)
 
 这是文件结构：
 
@@ -54,11 +54,10 @@ GitHub 的 demo 代码：[antd-demo](https://github.com/brickyang/antd-demo)
 
 ## 运行
 
-```
+```json
 "start": "npm run babel-w & npm run dev-webpack & npm run server",
 "dev-webpack": "node webpack-dev-server.js",
 "server": "NODE_ENV=development nodemon dist/server.js"
-
 ```
 
 `npm start` 做了两件事：
