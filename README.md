@@ -14,4 +14,4 @@ cd antd-demo
 npm start
 ```
 
-visit `localhost:3000` in browser.
+Visit `localhost:3000` in browser.
