@@ -2,17 +2,15 @@
   "name": "antd-demo",
   "version": "1.0.0",
   "description": "Just a demo.",
-  "main": "dist/server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rm -rf dist && rm -rf build/*",
-    "build": "npm run babel && npm run webpack",
-    "babel": "./node_modules/.bin/babel src -d dist --experimental --copy-files",
+    "build": "npm run webpack",
     "webpack": "./node_modules/.bin/webpack --config ./config/webpack.config.js -p --progress --colors",
-    "start": "npm run babel-w & npm run dev-webpack & npm run server",
-    "babel-w": "./node_modules/.bin/babel src -d dist --experimental --watch --copy-files",
+    "start": "npm run dev-webpack & npm run server",
     "dev-webpack": "node webpack-dev-server.js",
-    "server": "NODE_ENV=development nodemon dist/server.js"
+    "server": "NODE_ENV=development nodemon src/server.js"
   },
   "author": "Brick Yang <brick.c.yang@gmail.com>",
   "license": "ISC",
@@ -25,7 +23,6 @@
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.1",
-    "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.0",
     "babel-plugin-import": "^1.1.1",
