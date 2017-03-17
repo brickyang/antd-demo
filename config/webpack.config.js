@@ -3,8 +3,6 @@ const webpack = require('webpack');
 const assetsPlugin = require('assets-webpack-plugin');
 const extractTextPlugin = require('extract-text-webpack-plugin');
 
-const postcssConfig = require('./postcss.config');
-
 module.exports = {
 	entry: './index.jsx',
 	context: path.resolve(__dirname, '../src'),
